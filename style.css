@@ -1,19 +1,27 @@
 body {
-  background: rgb(255, 248, 240);
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./assets/paisaje.png);
   opacity: 0.5;
-  color: rgb(231, 96, 202);
+  color: rgb(14, 78, 41);
   font: 100% Lato, Arial, Sans Serif;
+  font-size: 14px;
   height: 100vh;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  padding: 10px;
+  padding: 40px;
 }
 
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+header > h1 {
+  font-size: 20px;
 }
 
 #background-wrap {
@@ -29,7 +37,7 @@ header {
 
 .bubble {
   background-color: #df0101;
-  opacity: 0.8;
+  opacity: 0.6;
 
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -96,7 +104,7 @@ header {
   -moz-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
   box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
 
-  content: "";
+  content: '';
   height: 180px;
   left: 10px;
   position: absolute;
