@@ -2,7 +2,7 @@ body {
   min-height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(./assets/paisaje.png);
+  background-image: url(./assets/images/paisaje.png);
   opacity: 0.5;
   color: rgb(14, 78, 41);
   font: 100% Lato, Arial, Sans Serif;
