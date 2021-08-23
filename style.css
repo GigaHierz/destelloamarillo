@@ -56,6 +56,17 @@ header > h2 {
   z-index: -1;
 }
 
+.caterpillar {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.no-2 {
+  width: 90%;
+  margin-left: 45px;
+}
+
 /* OBJECTS */
 
 .bubble {
